@@ -1,0 +1,27 @@
+{
+  "name": "flight-widget",
+  "version": "1.0.0",
+  "description": "The widget displays randomly generated data for flights in New Zealand. This updates every 6 seconds with a flipping animation on each tile.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydenhooper/Flight-Widget.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaydenhooper/Flight-Widget/issues"
+  },
+  "homepage": "https://github.com/jaydenhooper/Flight-Widget#readme",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
